@@ -1,0 +1,49 @@
+.hero-container {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  background: #f5f5f5;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  top: 4%;
+  button {
+    margin: 14px;
+    width: 120px;
+    padding: 14px;
+    border: none;
+    cursor: pointer;
+    border-radius: 36px;
+    font-family: cursive;
+    box-shadow: 0px 10px 19px #a6a6a6, -17px 1px 20px #fffffd;
+  }
+  button:active {
+    transform: scale(0.98);
+  }
+}
+
+.footer{
+  position: absolute;
+    display: flex;
+    width: 100%;
+    bottom: 0px;
+    align-items: center;
+    justify-content: center;
+    .status-wrapper{
+      font-size: large;
+      padding: 10px;
+      text-align: center;
+    }
+}
+
+.status-wrapper{
+  font-size: x-large;
+    font-weight: bolder;
+    font-family: cursive;
+}
